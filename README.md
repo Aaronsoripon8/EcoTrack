@@ -1,75 +1,15 @@
-# Nuxt Minimal Starter
+# EcoTrack AI - PWA 🌍
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+EcoTrack és una aplicació web progressiva dissenyada per recompensar accions sostenibles de l'usuari de forma lúdica i per proveir assistència intel·ligent sobre el reciclatge amb resposta en qüestió de segons a l'instant, mitjançant els llenguatges moderns centrats cap a l'experiència mòbil.
 
-## Setup
+Desenvolupat de 0 a 100 sota metodologia **Spec-Driven Development**.
 
-Make sure to install dependencies:
+## 🚀 Desplegament 
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Per portar el projecte a ambient de producció i provar d'escriure missatges a l'IA correctament s'ha de dotar clau:
+1. Instal·la mòduls: `npm install`
+2. Copia i crea un fitxer intern `.env` col·locant al document del mateix:
+   ```env
+   NUXT_AI_API_KEY=la-teva-clau-gen-ai-google-gratuita-generada
+   ```
+3. Activa dev de vistes Locals des PWA: `npm run dev`
